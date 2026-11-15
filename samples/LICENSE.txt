@@ -1,0 +1,13 @@
+Документація, діаграми, таблиці та приклади логів у цій папці
+© 2026 Repair-Fix (https://repair-fix.pp.ua)
+
+Ліцензія: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/deed.uk
+
+Можна копіювати, публікувати й змінювати, зокрема на інших сайтах,
+за умови посилання на джерело: Repair-Fix, https://repair-fix.pp.ua
+
+---
+Documentation, diagrams, tables and sample logs in this folder
+are licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Attribution: Repair-Fix, https://repair-fix.pp.ua

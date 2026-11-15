@@ -1,0 +1,298 @@
+ü[4294.967295 EC get power !! rsts:(0) 
+]
+--- UART initialized after reboot ---
+[Image: RO, static-version static-date CH_HO@build]
+[Reset cause: reset-pin power-on]
+[0.001595 system_run_image_ro 
+]
+[0.004177 RO ver: G01050 
+]
+[0.005020 jump rw 2 
+]
+[0.006086 Jumping to image RW (0x0000000a)]
+[0.035618 EC get power !! rsts:(0) 
+]
+--- UART initialized after reboot ---
+[Image: RW, static-version static-date CH_HO@build]
+[Reset cause: power-on]
+[0.001732 system_run_image_rw 
+]
+[0.002691 Inits done]
+[0.004310 EC's espi_reset pin function disable]
+[0.006356 low power idle task started]
+reset cause : 0,4 
+[0.020255 PWM multipler is 100]
+[0.286164 init gpi event]
+[0.289627 Valve_Galileo 
+]
+[0.290200 G01090 
+]
+[0.290722 2024/04/09:0937 
+]
+[0.291258 F7G 
+]
+[0.291791 ITE-81302 
+]
+[0.294305 RO ver: G01050 
+]
+[0.299711 Get BoardID and discard :2973 mV, ]
+[0.301885 BoardID average 3 times :2997 mV, ]
+[0.303772 Get Panel_ID :41 mV, ]
+[0.306817 PB task 0 = idle]
+[0.307828 PB task 0 = idle, wait -1]
+[0.309181 power state 1 = S5, in 0x0000]
+[0.310542 power_handle_state : 1
+]
+[0.311934 Battery not ready. 
+]
+running with no battery and no ACbat:0,ac:0,(err:0),(ctrl_stat:0) 
+[0.325939 Update desire input current = 50 mA]
+[0.439541 evt 'bat in' assert]
+[0.832276 Battery MOS status:0x103 
+]
+bat:1,ac:0,(err:0),(ctrl_stat:0) 
+[0.913701 C0: PD comm policy enabled]
+[0.915857 Battery MOS status:0x103 
+]
+[0.917942 Battery MOS status:0x103 
+]
+[0.922753 C0: TCPC init ready]
+[0.929298 C0: Applying CC Open!]
+[1.224766 C0: TCPC Enter Low Power Mode]
+[4.607591 C0: Exit Low Power Mode]
+C0: Req [4] 15000mV 3000mA
+[5.336390 PD_Adapter_C = 0 
+ ]
+[5.576263 evt 'AC in' assert]
+SysPowState = 50 , 
+[5.578125 power_handle_state : 1
+]
+[5.579314 power state 5 = G3->S5, in 0x0000]
+[5.580679 power_handle_state : 5
+]
+[5.583192 Update desire input current = 2850 mA]
+pd_connected voltage = 15000 ,current = 3000 
+[5.590029 AC on]
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+charge_request(8900mV, 5120mA)[6.582586 seq: ]
+[6.583130 Power sequence run as EV2]
+[6.584121 P_Seq 0, ]
+[6.584970 RTC reset deassert]
+[6.585820 P_Seq 1, ]
+[6.586667 P_Seq 2, ]
+[6.587466 P_Seq 3, ]
+[6.598387 P_Seq 4, ]
+[6.619429 P_Seq 5, ]
+[6.627974 5V_S5_ON by SEQ]
+[6.630064 S5_ON_Here]
+[6.630790 P_Seq 6, ]
+[6.681678 RSMRST_High_Here]
+[6.682472 P_Seq 7, ]
+[6.683235 P_Seq 8, ]
+[6.685360 P_Seq 9, ]
+[6.750642 P_Seq 10, ]
+[6.801528 P_Seq 11, ]
+[6.802240 P_Seq 12, ]
+[6.802993 P_Seq 13, ]
+[6.803842 P_Seq 14, ]
+[6.804588 P_Seq 15, ]
+[6.817623 P_Seq 16, ]
+[6.818454 
+]
+[6.818936 power state 1 = S5, in 0x0003]
+[6.820318 power_handle_state : 1
+]
+[6.821417 power state 6 = S5->S3, in 0x0003]
+[6.822840 power_handle_state : 6
+]
+[6.823956 seq: ]
+[6.824467 Power sequence run as EV2]
+[6.825494 P_Seq 0, ]
+[6.826349 P_Seq 1, ]
+[6.887201 P_Seq 2, ]
+[6.888127 P_Seq 3, ]
+[6.888892 P_Seq 4, ]
+[6.889663 P_Seq 5, ]
+[6.900638 P_Seq 6, ]
+[6.911606 P_Seq 7, ]
+[6.912398 P_Seq 8, ]
+[6.913142 P_Seq 9, ]
+[6.913837 
+]
+[6.914446 PD:S5->S3]
+[6.915251 power state 3 = S3, in 0x0003]
+[6.917039 power_handle_state : 3
+]
+[6.918238 power state 7 = S3->S0, in 0x0003]
+[6.919687 power_handle_state : 7
+]
+[6.920790 seq: ]
+[6.921313 Power sequence run as EV2]
+[6.922289 P_Seq 0, ]
+[6.923054 P_Seq 1, ]
+[6.934133 P_Seq 2, ]
+[6.935033 P_Seq 3, ]
+[6.935782 P_Seq 4, ]
+[6.938163 P_Seq 5, ]
+[6.940343 P_Seq 6, ]
+[6.941185 P_Seq 7, ]
+[6.941949 P_Seq 8, ]
+[6.953049 P_Seq 9, ]
+[6.959215 P_Seq 10, ]
+[6.960073 P_Seq 11, ]
+[6.962107 P_Seq 12, ]
+[6.962887 P_Seq 13, ]
+[6.963736 P_Seq 14, ]
+[6.979701 P_Seq 15, ]
+[6.995793 P_Seq 16, ]
+[7.011737 P_Seq 17, ]
+[7.112671 P_Seq 18, ]
+[7.113413 P_Seq 19, ]
+[7.114269 P_Seq 20, ]
+[7.115028 
+]
+[7.115967 PD:S3->S0]
+[7.116708 power state 4 = S0, in 0x0003]
+[7.119238 power_handle_state : 4
+]
+[7.120459 power_handle_state : 4
+]
+charge_request(8900mV, 4160mA)charge_request(8900mV, 2880mA)bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+[25.475263 VW PLTRST_L deasserted]
+P80 : [0xdc,0xa9]
+P80 : [0x15,0xa9]
+P80 : [0x3f,0xc]
+P80 : [0x14,0xa9]
+P80 : [0xdc,0xa9]
+P80 : [0x55,0xa9]
+[25.752722 KB Clear Buffer]
+P80 : [0x80,0x2]
+P80 : [0x83,0x2]
+P80 : [0x21,0xa9]
+P80 : [0xf3,0xa5]
+P80 : [0x42,0x5d]
+P80 : [0xdc,0xa9]
+P80 : [0x15,0xaf]
+P80 : [0x59,0x2]
+P80 : [0x39,0xa5]
+[26.799000 Pin PLTRST_L deasserted ,SysPowState = 0x10]
+[26.800018 Processing platform reset 
+]
+P80 : [0xc,0xe6]
+P80 : [0x3f,0xe0]
+P80 : [0x90,0xe0]
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+P80 : [0x91,0xe0]
+P80 : [0xd2,0xe0]
+P80 : [0x14,0xe0]
+P80 : [0xd1,0xe0]
+P80 : [0x14,0xe0]
+P80 : [0x15,0xe0]
+P80 : [0xbe,0xe0]
+P80 : [0xd1,0xe0]
+P80 : [0x15,0xe0]
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+P80 : [0xd1,0xe0]
+P80 : [0x15,0xe0]
+P80 : [0xd1,0xe0]
+P80 : [0x15,0xe0]
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+P80 : [0xd2,0xe0]
+P80 : [0xc,0xe6]
+P80 : [0xc2,0xe0]
+P80 : [0x99,0xe0]
+P80 : [0x0,0x3]
+P80 : [0x0,0x7]
+P80 : [0x0,0x0]
+P80 : [0x7,0x0]
+P80 : [0x9,0x2]
+P80 : [0x15,0xa9]
+P80 : [0x3f,0xc]
+P80 : [0xe1,0xac]
+P80 : [0x70,0xac]
+P80 : [0xdc,0xa9]
+[43.368389 KB Clear Buffer]
+P80 : [0x80,0x2]
+P80 : [0x83,0x2]
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+P80 : [0x21,0xa9]
+P80 : [0xf3,0xa5]
+P80 : [0xdc,0xa9]
+P80 : [0x15,0xaf]
+P80 : [0x39,0xa5]
+P80 : [0x9e,0xa5]
+P80 : [0x52,0x2]
+P80 : [0x4d,0x2]
+P80 : [0x11,0x2]
+P80 : [0x25,0xc]
+P80 : [0x1a,0x2]
+P80 : [0x1b,0x2]
+[46.626468 KB scancode set to 2]
+[46.628108 KS enable]
+[46.629050 KB Clear Buffer]
+[46.631247 KB Clear Buffer]
+P80 : [0x20,0x2]
+[46.634414 KB IRQ enable]
+[46.635216 AUX IRQ enable]
+[46.635947 KB enable]
+P80 : [0x17,0x2]
+P80 : [0x18,0x2]
+P80 : [0x1d,0x2]
+P80 : [0x18,0x2]
+P80 : [0x2,0xa0]
+P80 : [0x18,0x2]
+P80 : [0x27,0x2]
+P80 : [0x9e,0xa5]
+P80 : [0xfb,0x2]
+[47.935913 KB disable]
+[47.936642 KB Clear Buffer]
+[47.938716 KB enable]
+[47.941097 KB disable]
+[47.941821 KB Clear Buffer]
+[47.943870 KB enable]
+P80 : [0xf3,0xa5]
+P80 : [0x2c,0xa5]
+P80 : [0xa7,0x2]
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+P80 : [0xac,0xec]
+[49.720311 KB Clear Buffer]
+[49.721728 KB Clear Buffer]
+[49.723771 KB disable]
+[49.724470 KB IRQ disable]
+[49.725520 KB IRQ enable]
+[49.726200 KB enable]
+P80 : [0x2a,0x0]
+P80 : [0x42,0x14]
+P80 : [0x9e,0xa5]
+[52.509362 KS disable]
+[52.510027 KB Clear Buffer]
+[52.513860 KS enable]
+[52.514487 KB Clear Buffer]
+P80 : [0x0,0xa5]
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+bat:1,ac:1,(err:0),(ctrl_stat:2) 
+[112.003653 evt 'AC in' de-assert]
+P80 : [0xdc,0xec]
+[112.147757 Battery MOS status:0x103 
+]
+[112.153796 enable PSYS 
+]
+bat:1,ac:0,(err:0),(ctrl_stat:0) 
+[112.179160 Update desire input current = 50 mA]
+P80 : [0x20,0x0]
+[112.264014 PB task 0 = idle]
+[112.264994 PB task 0 = idle, wait -1]
+[112.266936 power_handle_state : 4
+]
+bat:1,ac:0,(err:0),(ctrl_stat:0) 

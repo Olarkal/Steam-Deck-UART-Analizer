@@ -1,0 +1,273 @@
+[4294.967295 EC get power !! rsts:(0) 
+]
+
+
+--- UART initialized after reboot ---
+[Image: RO, static-version static-date CH_HO@build]
+[Reset cause: reset-pin power-on]
+[0.001595 system_run_image_ro 
+]
+[0.004177 RO ver: G01050 
+]
+[0.005021 jump rw 2 
+]
+[0.006086 Jumping to image RW (0x0000000a)]
+[0.035617 EC get power !! rsts:(0) 
+]
+
+
+--- UART initialized after reboot ---
+[Image: RW, static-version static-date CH_HO@build]
+[Reset cause: power-on]
+[0.001732 system_run_image_rw 
+]
+[0.002691 Inits done]
+[0.004343 EC's espi_reset pin function disable]
+[0.006345 low power idle task started]
+reset cause : 0,4 
+[0.020180 PWM multipler is 100]
+[0.273305 init gpi event]
+[0.276757 Valve_Galileo 
+]
+[0.277330 G01090 
+]
+[0.277853 2024/04/09:0937 
+]
+[0.278391 F7G 
+]
+[0.278924 ITE-81302 
+]
+[0.281458 RO ver: G01050 
+]
+[0.286894 Get BoardID and discard :2997 mV, ]
+[0.289068 BoardID average 3 times :2997 mV, ]
+[0.290952 Get Panel_ID :41 mV, ]
+[0.293997 PB task 0 = idle]
+[0.295018 PB task 0 = idle, wait -1]
+[0.296389 power state 1 = S5, in 0x0000]
+[0.297750 power_handle_state : 1
+]
+[0.299142 Battery not ready. 
+]
+running with no battery and no ACbat:0,ac:0,(err:0),(ctrl_stat:0) 
+[0.312980 Update desire input current = 50 mA]
+[0.426675 evt 'bat in' assert]
+[0.811496 charge problem: batt params, 0x0 -> 0x3ff7fc after 0.811475s]
+bat:1,ac:0,(err:1),(ctrl_stat:0) 
+[1.073523 evt 'AC in' assert]
+pd_dis_connected 
+ [1.075523 Update desire input current = 500 mA]
+[1.077271 AC on]
+bat:1,ac:1,(err:1),(ctrl_stat:4) 
+[1.401307 C0: PD comm policy enabled]
+[1.410778 Turn on 1.8V_S5 to prevent PMIC reset uncomplete. 
+]
+[1.413498 C0: TCPC init ready]
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+[1.589456 Update desire input current = 900 mA]
+C0: Req [4] 15000mV 3000mA
+[1.721061 pd_connected voltage = 15000 ,current = 3000 
+]
+SysPowState = 50 , 
+[1.724862 power_handle_state : 1
+]
+[1.726003 power state 5 = G3->S5, in 0x0000]
+[1.727438 power_handle_state : 5
+]
+[1.744482 Update desire input current = 2850 mA]
+[2.729627 seq: ]
+[2.730168 Power sequence run as EV2]
+[2.731253 P_Seq 0, ]
+[2.732038 RTC reset deassert]
+[2.732931 P_Seq 1, ]
+[2.733751 P_Seq 2, ]
+[2.734462 P_Seq 3, ]
+[2.745386 P_Seq 4, ]
+[2.766434 P_Seq 5, ]
+[2.774729 5V_S5_ON by SEQ]
+[2.776800 S5_ON_Here]
+[2.777516 P_Seq 6, ]
+[2.828414 RSMRST_High_Here]
+[2.829312 P_Seq 7, ]
+[2.830087 P_Seq 8, ]
+[2.832135 P_Seq 9, ]
+[2.897583 P_Seq 10, ]
+[2.948537 P_Seq 11, ]
+[2.949249 P_Seq 12, ]
+[2.950087 P_Seq 13, ]
+[2.950960 P_Seq 14, ]
+[2.951706 P_Seq 15, ]
+[2.964691 P_Seq 16, ]
+[2.965479 
+]
+[2.965906 power state 1 = S5, in 0x0003]
+[2.967318 power_handle_state : 1
+]
+[2.968428 power state 6 = S5->S3, in 0x0003]
+[2.969867 power_handle_state : 6
+]
+[2.970978 seq: ]
+[2.971492 Power sequence run as EV2]
+[2.972519 P_Seq 0, ]
+[2.973343 P_Seq 1, ]
+[3.034171 P_Seq 2, ]
+[3.035107 P_Seq 3, ]
+[3.035935 P_Seq 4, ]
+[3.036673 P_Seq 5, ]
+[3.047757 P_Seq 6, ]
+[3.058737 P_Seq 7, ]
+[3.059640 P_Seq 8, ]
+[3.060338 P_Seq 9, ]
+[3.061082 
+]
+[3.061660 PD:S5->S3]
+[3.062331 power state 3 = S3, in 0x0003]
+[3.063770 power_handle_state : 3
+]
+[3.064891 power state 7 = S3->S0, in 0x0003]
+[3.066347 power_handle_state : 7
+]
+[3.067454 seq: ]
+[3.067968 Power sequence run as EV2]
+[3.069004 P_Seq 0, ]
+[3.069762 P_Seq 1, ]
+[3.080762 P_Seq 2, ]
+[3.081598 P_Seq 3, ]
+[3.082336 P_Seq 4, ]
+[3.084497 P_Seq 5, ]
+[3.086654 P_Seq 6, ]
+[3.087474 P_Seq 7, ]
+[3.088234 P_Seq 8, ]
+[3.099246 P_Seq 9, ]
+[3.105425 P_Seq 10, ]
+[3.106309 P_Seq 11, ]
+[3.108339 P_Seq 12, ]
+[3.109116 P_Seq 13, ]
+[3.109865 P_Seq 14, ]
+[3.125897 P_Seq 15, ]
+[3.141924 P_Seq 16, ]
+[3.157908 P_Seq 17, ]
+[3.258869 P_Seq 18, ]
+[3.259608 P_Seq 19, ]
+[3.260482 P_Seq 20, ]
+[3.261301 
+]
+[3.262296 PD:S3->S0]
+[3.263063 power state 4 = S0, in 0x0003]
+[3.264469 power_handle_state : 4
+]
+[3.265697 power_handle_state : 4
+]
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+[21.631427 VW PLTRST_L deasserted]
+P80 : [0x15,0xa9]
+P80 : [0x3f,0xc]
+P80 : [0x15,0xa9]
+P80 : [0xdc,0xa9]
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+[21.907734 KB Clear Buffer]
+P80 : [0x80,0x2]
+P80 : [0x83,0x2]
+P80 : [0x21,0xa9]
+P80 : [0xf3,0xa5]
+P80 : [0xdc,0xa9]
+P80 : [0x15,0xaf]
+P80 : [0x59,0x2]
+P80 : [0x39,0xa5]
+[22.932230 Pin PLTRST_L deasserted ,SysPowState = 0x10]
+[22.933245 Processing platform reset 
+]
+P80 : [0x0,0x1]
+P80 : [0x3e,0xe0]
+P80 : [0x90,0xe0]
+P80 : [0x91,0xe0]
+P80 : [0xd2,0xe0]
+P80 : [0x14,0xe0]
+P80 : [0xd1,0xe0]
+P80 : [0x14,0xe0]
+P80 : [0x15,0xe0]
+P80 : [0xd1,0xe0]
+P80 : [0x15,0xe0]
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+P80 : [0xd1,0xe0]
+P80 : [0x15,0xe0]
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+P80 : [0xd1,0xe0]
+P80 : [0x15,0xe0]
+P80 : [0xbe,0xe0]
+P80 : [0xc,0xe6]
+P80 : [0xc2,0xe0]
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+P80 : [0x99,0xe0]
+P80 : [0xc9,0xe0]
+P80 : [0x99,0xe0]
+P80 : [0x0,0x7]
+P80 : [0x0,0xd]
+P80 : [0x6,0x0]
+P80 : [0x7,0x0]
+P80 : [0x9,0x2]
+P80 : [0xdc,0xa9]
+P80 : [0x3f,0xc]
+P80 : [0x14,0xa9]
+P80 : [0xdc,0xa9]
+P80 : [0x55,0xa9]
+[39.514675 KB Clear Buffer]
+P80 : [0x80,0x2]
+P80 : [0x83,0x2]
+P80 : [0x21,0xa9]
+P80 : [0xf3,0xa5]
+P80 : [0xdc,0xa9]
+P80 : [0x15,0xaf]
+P80 : [0x45,0xa5]
+P80 : [0x39,0xa5]
+P80 : [0x9e,0xa5]
+P80 : [0x52,0x2]
+P80 : [0x4d,0x2]
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+P80 : [0x40,0x1b]
+P80 : [0x25,0xc]
+[42.593412 KB scancode set to 2]
+[42.595196 KS enable]
+[42.595931 KB Clear Buffer]
+[42.598112 KB Clear Buffer]
+[42.600112 KB IRQ enable]
+[42.600859 AUX IRQ enable]
+[42.601606 KB enable]
+P80 : [0x17,0x2]
+P80 : [0x1d,0x2]
+P80 : [0x18,0x2]
+P80 : [0x14,0xa9]
+P80 : [0x2,0xa0]
+P80 : [0x18,0x2]
+P80 : [0x27,0x2]
+P80 : [0xf0,0xa5]
+[44.481140 KB disable]
+[44.481827 KB Clear Buffer]
+[44.483886 KB enable]
+[44.486074 KB disable]
+[44.486974 KB Clear Buffer]
+[44.488977 KB enable]
+P80 : [0xf3,0xa5]
+P80 : [0x2c,0xa5]
+P80 : [0xa7,0x2]
+P80 : [0xac,0xec]
+[46.429130 KB Clear Buffer]
+[46.430610 KB Clear Buffer]
+[46.432454 KB disable]
+[46.433153 KB IRQ disable]
+[46.434114 KB IRQ enable]
+[46.434837 KB enable]
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+P80 : [0x42,0x14]
+[48.564310 KS disable]
+[48.564976 KB Clear Buffer]
+[48.568417 KS enable]
+[48.569104 KB Clear Buffer]
+P80 : [0x0,0xa5]
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
+bat:1,ac:1,(err:1),(ctrl_stat:1) 
