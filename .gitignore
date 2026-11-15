@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.spec
+deck_uart_*.txt
+logs/
+Thumbs.db
+desktop.ini
+.DS_Store
