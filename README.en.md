@@ -119,7 +119,7 @@ All logs come from a working DA0F7GMBAE0 rev E board, EC G01090. `python tests/c
 ## Author
 
 **Repair-Fix** — game console and electronics repair.
-Website: [repair-fix.pp.ua](https://repair-fix.pp.ua) · Telegram: [@okas43](https://t.me/okas43)
+Website: [repair-fix.pp.ua](https://repair-fix.pp.ua)
 
 Found a mismatch or have a log from another board or console? Open an [Issue](../../issues).
 
