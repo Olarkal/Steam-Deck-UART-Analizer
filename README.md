@@ -119,7 +119,7 @@ build_exe.bat
 ## Автор
 
 **Repair-Fix** — ремонт ігрових консолей і електроніки.
-Сайт: [repair-fix.pp.ua](https://repair-fix.pp.ua) · Telegram: [@okas43](https://t.me/okas43)
+Сайт: [repair-fix.pp.ua](https://repair-fix.pp.ua)
 
 Знайшли розбіжність або маєте лог з іншої плати чи консолі — відкривайте [Issue](../../issues).
 
